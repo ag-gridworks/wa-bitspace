@@ -10,7 +10,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><i class="fa fa-rocket" aria-hidden="true"></i><b>BIT</b>SPACE</a>
+                <a class="navbar-brand" href="index.php"><i class="fa fa-rocket" aria-hidden="true"></i><b>BIT</b>SPACE</a>
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
@@ -71,10 +71,10 @@
                             </li>
                         </ul>
                     </li>
-                    <!-- <li>
-                        <a href="blank-page.html"><i class="fa fa-fw fa-file"></i> Blank Page</a>
-                    </li>
                     <li>
+                        <a href="blank-page.html"><i class="fa fa-fw fa-file"></i> Calendário</a>
+                    </li>
+                    <!-- <li>
                         <a href="index-rtl.html"><i class="fa fa-fw fa-dashboard"></i> RTL Dashboard</a>
                     </li> -->
                 </ul>

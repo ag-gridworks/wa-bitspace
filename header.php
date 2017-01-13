@@ -31,6 +31,8 @@ session_start();
 if (isset($_SESSION['uid'])) {
 
 	include ("safe.php");
+
+	//Cálculos
 }
 
 include("navbar.php");

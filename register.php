@@ -52,7 +52,7 @@ include("header.php");
                     echo "<br>Este endereço de e-mail já está em uso!";
                 }else{ 
 
-                   $ins1 = mysql_query("INSERT INTO `user` (`username`,`password`,`email`,`money`) VALUES ('$username','".md5($password)."','$email',2000)") or die(mysql_error());
+                   $ins1 = mysql_query("INSERT INTO `user` (`username`,`password`,`email`) VALUES ('$username','".md5($password)."','$email')") or die(mysql_error());
 
                    echo "<br>Você se registou! <br>";
 
