@@ -1,0 +1,45 @@
+body {
+	background-color: #ededed;
+	color: #7f8c8d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $title_font;
+	color: $grey;
+}
+
+.clear {clear: both}
+
+#go-wrapper {padding-left: 220px;}
+
+// Align Elements
+.left {text-align: left !important;}
+.right {text-align: right !important;}
+.center {text-align: center !important;}
+
+// Hide Elements
+.hide {display: none !important}
+
+/* For the "inset" look only */
+html {
+    overflow: auto;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track fundo */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #343843; 
+}
+ 
+/* Handle paradinha*/
+::-webkit-scrollbar-thumb {
+    background: #3c3e4a; 
+    -webkit-box-shadow: inset 0 0 6px #3c3e4a;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #343843;
+}

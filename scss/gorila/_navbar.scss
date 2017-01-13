@@ -1,0 +1,30 @@
+.user-info {
+  padding: 25px;
+  text-align: center;
+  float: center;
+
+  img {
+  border: 3px solid #3a3e49;
+  background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+
+  .user-name {
+    margin-top: 15px;
+    color: #fff;
+    font: 17px $title_font;
+  }
+
+  .user-level {
+    color: #858a95;
+    font: bold 14px $title_font;
+    text-transform: uppercase;
+  }
+}
+
+.top-nav-user {
+  font-size: 20px;
+}

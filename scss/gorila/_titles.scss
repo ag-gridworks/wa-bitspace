@@ -1,0 +1,55 @@
+.go-title {
+	margin-bottom: 30px;
+	text-align: center;
+    display: inline-block;
+	position: relative;
+	font: 30px $title_font;
+    font-weight: bold;
+    margin-top: 30px;
+	
+    &:after {
+		content:'';
+        position:absolute;
+        left:0; right:0;
+        top:100%;
+        margin:10px auto;
+        width:50%;
+        height:3px;
+    }
+}
+
+.go-title-area {
+    text-align: center;
+}
+
+.go-title.default {
+    color: $grey;
+    &:after {
+        background: $default_color;
+    }
+}
+
+.go-title.light {
+    
+    color: #fff;
+    &:after {
+        background:#fff;
+    }
+}
+
+.go-title.dark {
+    
+    color: #2c3e50;
+    &:after {
+        background:#2c3e50;
+    }
+}
+
+
+.go-title.custom {
+    color: $title_color;
+    font-size: 90px;
+    &:after {
+        background: $title_bar_color;
+    }
+}

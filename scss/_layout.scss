@@ -1,0 +1,55 @@
+// Custom Layout Building CSS
+
+.showcase-1 {
+	>.showcase-1__item {
+		@include make-xs-column(12);
+		@include make-sm-column(6);
+		@include make-md-column(4);
+		margin: 15px 0px;
+		>.inner {
+			padding: 30px;
+		}
+	}
+}
+
+.showcase-2 {
+	margin-bottom: 30px;
+	>.showcase-2__item {
+		@include make-md-column(12);
+		margin: 15px 0px;
+		width: 100%;
+		>.inner {
+			padding: 30px 0px;
+		}
+	}
+}
+
+footer {
+	background-color: $black;
+	text-align: center;
+	padding: 80px;
+
+
+	.brand {
+		color: $white;
+		text-transform: uppercase;
+		font: 15px $title_font;
+
+		i {
+			color: $orange;
+			margin-right: 5px;
+		}
+	}
+}
+
+.showcase-3 {
+	>.showcase-3__item {
+		@include make-xs-column(12);
+		@include make-sm-column(12);
+		@include make-md-column(12);
+		margin: 15px 0px;
+		>.inner {
+			padding: 30px;
+		}
+	}
+}

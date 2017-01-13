@@ -1,0 +1,64 @@
+// Fonts
+$title_font: 'Cabin';
+
+// Colors
+$t: transparent;
+
+$default-color: #454545;
+$font_color: #717f86;
+
+$turquoise: #1abc9c;
+$turquoise_shade: #16a085;
+
+$green: #2ecc71;
+$green_shade: #27ae60;
+
+$blue: #3498db;
+$blue_shade: #2980b9;
+
+$purple: #9b59b6;
+$purple_shade: #8e44ad;
+
+$dark: #34495e;
+$dark_shade: #2c3e50;
+
+$yellow: #f1c40f;
+$yellow_shade: #f39c12;
+
+$orange: #e67e22;
+$orange_shade: #d35400;
+
+$red: #e74c3c;
+$red_shade: #c0392b;
+
+$black: #141719;
+
+$grey: #454545;
+
+$white: #ecf0f1;
+$white_shade: #bdc3c7;
+
+$silver: #95a5a6;
+$silver_shade: #7f8c8d;
+
+// Default Page Style Color
+$default_color: #324563;
+$color1: #324563;
+$color2: #64c6d7;
+
+// Custom Variables (add -custom after your classes to use this variables)
+
+	// Box Variables
+	$box_title_color: #15243a;
+	$box_icon_color: #15243a;
+	$box_thumb_color: #15243a;
+	// Box Hover Variables
+	$box_hover_color: #4fb647;
+
+	// Title Variables
+	$title_color: $blue;
+	$title_bar_color: $blue;
+	
+	// Button Variables
+	$button_font_color: $white;
+	$button_background_color: $blue;
